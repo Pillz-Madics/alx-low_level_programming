@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - function like puts();
+ * _print_rev_recursion - function like puts() but reverses the string;
  * @s: input
  * Return: Always 0 (Success)
  */
