@@ -16,7 +16,7 @@ struct listint_t
 };
 
 /**
- * listint_t - Typedef for struc listint_t
+ * typedef struct listint_t - Typedef for struct listint_t
  *
  */
 
