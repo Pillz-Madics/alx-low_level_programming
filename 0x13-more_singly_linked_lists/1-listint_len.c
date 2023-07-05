@@ -15,9 +15,9 @@ size_t listint_len(const listint_t *h)
 	size_t count = 0;
 	const listint_t *check;
 
-	if (t == NULL)
+	if (h == NULL)
 	{
-		return (-1);
+		return (0);
 	}
 	check = h;
 	while (check != NULL)
