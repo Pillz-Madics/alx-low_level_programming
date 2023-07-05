@@ -4,15 +4,15 @@
 /**
  * struct listint_t - structure for singly linked list
  * @n: First member
- *
+ * @next: address to the next node
  * Description: structure for singly linked list named listint_t
  */
 
 
 struct listint_t
 {
-    int n;
-    struct listint_t *next;
+	int n;
+	struct listint_t *next;
 };
 
 /**
