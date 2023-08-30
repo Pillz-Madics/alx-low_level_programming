@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Lists.h"
+#include "lists.h"
 
 /**
  * free_listint2 - frees a linked list
@@ -15,7 +15,6 @@ void free_listint2(listint_t **head)
 	while (*head != NULL)
 	{
 		h = (*head)->next;
-		free((*head)->n);
 		free(*head);
 		*head = h;
 	}

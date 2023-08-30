@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Lists.h"
+#include "lists.h"
 
 /**
  * get_nodeint_at_index - returns the node at a certain index in a linked list
@@ -13,7 +13,7 @@
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *nw;
-	int i;
+	unsigned int i;
 
 	i = 0;
 	nw = head;
